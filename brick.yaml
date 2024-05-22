@@ -27,6 +27,6 @@ environment:
 #  * an optional separator (list only)
 vars:
   feature_name:
-    name: string
+    type: string
     description: The name of feature you are building.
     prompt: What is the name of feature?
