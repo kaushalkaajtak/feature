@@ -30,3 +30,16 @@ vars:
     type: string
     description: The name of feature you are building.
     prompt: What is the name of feature?
+    default: new_feature
+
+  state_management:
+    type: enum
+    description: Lets user select the choice of statemangment.
+    prompt: What state management you wanna use?
+    default: cubit
+    values:
+        - bloc
+        - cubit 
+        - provider
+        
+
